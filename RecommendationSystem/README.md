@@ -18,11 +18,21 @@ Este repositorio utiliza el dataset [Anime Recommendation Database 2020](https:/
 - **anime_id** → ID del anime que este usuario ha calificado.  
 - **rating** → Calificación otorgada (escala de 1 a 10; valor **-1** si el usuario vio el anime pero no asignó calificación).  
 
-# Agradecimientos  
-Gracias a la API de **myanimelist.net** por proporcionar los datos de anime y valoraciones de usuarios.  
-
 # Inspiración  
 Construir un sistema de recomendación de anime más efectivo, basado únicamente en el historial de visualización de los usuarios.  
----
 
 
+# Metodología
+
+1.  **Exploración de datos**: análisis de calificaciones, géneros y
+    estados de visionado.\
+2.  **Preparación y limpieza**: manejo de valores nulos y transformación
+    de variables.\
+3.  **Modelado**: implementación de varios enfoques (item, contenido y deep learning
+
+# Conclusiones 
+Ningún modelo es “mejor” sólo por la cantidad de recomendaciones (porque es fija).
+
+La evaluación debería basarse en métricas como precisión, recall, NDCG, MAP o satisfacción del usuario.
+
+Lo interesante del DataFrame es que permite comparar cuáles títulos coinciden entre métodos y cuáles son exclusivos de cada enfoque, en este caso no se encontró intersecciones. Lo que no indica que tenemos que ampliar la muestra dado que en este ejercicio se tomo el 10% de las recomendaciones por limitaciones computacionales.
