@@ -1,6 +1,6 @@
 # 📊 Anime Recommendation Database 2020  
 
-Este repositorio utiliza el dataset [Anime Recommendation Database 2020](https://www.kaggle.com/datasets/hernan4444/anime-recommendation-database-2020/data), que contiene información de **17,562 animes** y las preferencias de **325,772 usuarios**.  
+Este repositorio utiliza el dataset [Anime Recommendation Database 2020](https://www.kaggle.com/datasets/CooperUnion/anime-recommendations-database), que contiene información de **17,562 animes** y las preferencias de **325,772 usuarios**.  
 
 # Contenido  
 
